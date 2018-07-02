@@ -1,4 +1,4 @@
-package com.zhxh.android.xinject;
+package com.zhxh.xinject;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
