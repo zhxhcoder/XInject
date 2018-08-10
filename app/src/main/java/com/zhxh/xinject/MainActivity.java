@@ -33,10 +33,10 @@ public class MainActivity extends AppCompatActivity {
                 .build()
                 .inject(this);
 
-//        DaggerMainActivityComponent.builder()
-//                .applicationComponent(((DemoApplication) getApplication()).component())
-//                .build()
-//                .longsByString();
+        DaggerMainActivityComponent.builder()
+                .applicationComponent(((DemoApplication) getApplication()).component())
+                .build()
+                .longsByString();
     }
 
 
